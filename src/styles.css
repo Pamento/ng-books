@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("./assets/read-and-re-read.jpeg");
+  background-size: cover;
+  padding: .5em;
+}

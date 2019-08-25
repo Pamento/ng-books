@@ -7,8 +7,8 @@ export class AuthService {
   constructor() { }
 /**
  * Toutes les méthodes liées à l'authentification Firebase se trouvent dans  firebase.auth().
- * @param email 
- * @param password 
+ * @param email
+ * @param password
  */
   createNewUser(email: string, password: string) {
     return new Promise(
